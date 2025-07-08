@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- head area start -->
-    <?php include 'layout/partials/head.php';?>
+<?php include 'layout/partials/head.php'; ?>
 <!-- head area end -->
+
 <body>
 
     <!-- HEADER AREA -->
-        <?php include 'layout/header/header-one.php';?>
+    <?php include 'layout/header/header-one.php'; ?>
     <!-- HEADER AREA END -->
 
     <!-- HERO BANNER ONE -->
@@ -35,7 +36,8 @@
                             <a href="pricing-two.php" class="btn__zero plan__btn">Plans & Pricing <i
                                     class="fa-regular fa-long-arrow-right"></i></a>
                         </div>
-                        <p data-sal="slide-down" data-sal-delay="600" data-sal-duration="800"><img src="assets/images/icon/dollar.svg" alt="">Starting from <span>$2.95</span> per month
+                        <p data-sal="slide-down" data-sal-delay="600" data-sal-duration="800">
+                            <img src="assets/images/icon/dollar.svg" alt="">Starting from <span rt-currency-symbol>$</span><span rt-price>2.95</span> per month
                         </p>
                     </div>
                 </div>
@@ -174,7 +176,7 @@
                                     </div>
                                     <a href="wordpress-hosting.php" class="title">WordPress Hosting</a>
                                     <p class="excerpt">Manage your WordPress sites easily and more freedom.</p>
-                                    <h6 class="price__start">Starting from $2.95/month</h6>
+                                    <h6 class="price__start">Starting from <br /><span rt-currency-symbol>$</span> <span rt-price>2.95</span>/month</h6>
                                     <a href="wordpress-hosting.php" class="primary__btn border__btn">See Plan <i
                                             class="fa-regular fa-long-arrow-right"></i></a>
                                 </div>
@@ -188,7 +190,7 @@
                                     </div>
                                     <a href="wordpress-hosting.php" class="title">Web Hosting</a>
                                     <p class="excerpt">Manage your WordPress sites easily and more freedom.</p>
-                                    <h6 class="price__start">Starting from $2.95/month</h6>
+                                    <h6 class="price__start">Starting from <br /><span rt-currency-symbol>$</span> <span rt-price>2.95</span>/month</h6>
                                     <a href="wordpress-hosting.php" class="primary__btn border__btn">See Plan <i
                                             class="fa-regular fa-long-arrow-right"></i></a>
                                 </div>
@@ -202,7 +204,7 @@
                                     </div>
                                     <a href="vps-hosting.php" class="title">Vps Hosting</a>
                                     <p class="excerpt">Manage your WordPress sites easily and more freedom.</p>
-                                    <h6 class="price__start">Starting from $2.95/month</h6>
+                                    <h6 class="price__start">Starting from <br /><span rt-currency-symbol>$</span> <span rt-price>2.95</span>/month</h6>
                                     <a href="vps-hosting.php" class="primary__btn border__btn">See Plan <i
                                             class="fa-regular fa-long-arrow-right"></i></a>
                                 </div>
@@ -216,7 +218,7 @@
                                     </div>
                                     <a href="shared-hosting.php" class="title">Shared Hosting</a>
                                     <p class="excerpt">Manage your WordPress sites easily and more freedom.</p>
-                                    <h6 class="price__start">Starting from $2.95/month</h6>
+                                    <h6 class="price__start">Starting from <br /><span rt-currency-symbol>$</span> <span rt-price>2.95</span>/month</h6>
                                     <a href="shared-hosting.php" class="primary__btn border__btn">See Plan <i
                                             class="fa-regular fa-long-arrow-right"></i></a>
                                 </div>
@@ -297,13 +299,13 @@
                                 <ul>
                                     <li data-sal="slide-down" data-sal-delay="500" data-sal-duration="800">Compare:</li>
                                     <li data-sal="slide-down" data-sal-delay="600" data-sal-duration="800"><span
-                                            class="ext">.com</span> only $6.19</li>
+                                            class="ext">.com</span> only <span rt-currency-symbol>$</span> <span rt-price>6.19</span></li>
                                     <li data-sal="slide-down" data-sal-delay="700" data-sal-duration="800"><span
-                                            class="ext">.net</span> only $6.19</li>
+                                            class="ext">.net</span> only <span rt-currency-symbol>$</span> <span rt-price>6.19</span></li>
                                     <li data-sal="slide-down" data-sal-delay="800" data-sal-duration="800"><span
-                                            class="ext">.info</span> only $6.19</li>
+                                            class="ext">.info</span> only <span rt-currency-symbol>$</span> <span rt-price>6.19</span></li>
                                     <li data-sal="slide-down" data-sal-delay="900" data-sal-duration="800"><span
-                                            class="ext">.org</span> only $6.19</li>
+                                            class="ext">.org</span> only <span rt-currency-symbol>$</span> <span rt-price>6.19</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -319,8 +321,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="rts-section text-center w-530">
-                    <h3 class="rts-section__title" data-sal="slide-down" data-sal-delay="300" data-sal-duration="800">We
-                        Provide Hosting Solution</h3>
+                    <h3 class="rts-section__title" data-sal="slide-down" data-sal-delay="300" data-sal-duration="800">
+                        We Provide Hosting Solution
+                    </h3>
                     <p class="rts-section__description" data-sal="slide-down" data-sal-delay="400" data-sal-duration="800">Select your solution and we will help you narrow down our best
                         high-speed options to fit your needs.
                     </p>
@@ -665,14 +668,16 @@
                                     <th class="package__item">
                                         <div class="package__item__info">
                                             <span class="package__type">Basic</span>
-                                            <span class="start">Starting at $3.75/mo*</span>
+                                            <span class="start">Starting at <span rt-currency-symbol>$</span> <span rt-price>3.75</span>/mo*</span>
                                             <form action="#">
-                                                <select name="select" id="select" class="price__select">
-                                                    <option value="1">$3.75/mo</option>
-                                                    <option value="1">$10.75/mo</option>
-                                                </select>
-                                                <button type="submit" aria-label="buy package" class="primary__btn primary__bg buy__now">By
-                                                    Now</button>
+                                                <select class="price__select" data-prices="3.75,5.99"></select>
+                                                <!-- <select name="select" id="select" class="price__select">
+                                                    <option value="1"><span rt-currency-symbol>$</span> <span rt-price>3.75</span>/mo</option>
+                                                    <option value="1"><span rt-currency-symbol>$</span> <span rt-price>10.75</span>/mo</option>
+                                                </select> -->
+                                                <button type="submit" aria-label="buy package" class="primary__btn primary__bg buy__now">
+                                                    By Now
+                                                </button>
                                             </form>
                                         </div>
                                     </th>
@@ -681,12 +686,13 @@
                                         <!-- table-title-3 -->
                                         <div class="package__item__info">
                                             <span class="package__type">Deluxe</span>
-                                            <span class="start">Starting at $3.75/mo*</span>
+                                            <span class="start">Starting at <span rt-currency-symbol>$</span> <span rt-price>9.99</span>/mo*</span>
                                             <form action="#">
-                                                <select name="select" id="select1" class="price__select">
-                                                    <option value="1">$3.75/mo</option>
-                                                    <option value="1">$10.75/mo</option>
-                                                </select>
+                                                <select class="price__select" id="select1" data-prices="9.99,12.99"></select>
+                                                <!-- <select name="select" id="select1" class="price__select">
+                                                    <option value="1"><span rt-currency-symbol>$</span> <span rt-price>3.75</span>/mo</option>
+                                                    <option value="1"><span rt-currency-symbol>$</span> <span rt-price>10.75</span>/mo</option>
+                                                </select> -->
                                                 <button type="submit" aria-label="buy package" class="primary__btn primary__bg buy__now">By
                                                     Now</button>
                                             </form>
@@ -696,12 +702,13 @@
                                     <th class="package__item">
                                         <div class="package__item__info">
                                             <span class="package__type">Ultra</span>
-                                            <span class="start">Starting at $3.75/mo*</span>
+                                            <span class="start">Starting at <span rt-currency-symbol>$</span> <span rt-price>15.99</span>/mo*</span>
                                             <form action="#">
-                                                <select name="select" id="select2" class="price__select">
-                                                    <option value="1">$3.75/mo</option>
-                                                    <option value="1">$10.75/mo</option>
-                                                </select>
+                                                <select class="price__select" data-prices="15.99,19.99"></select>
+                                                <!-- <select name="select" id="select2" class="price__select">
+                                                    <option value="1"><span rt-currency-symbol>$</span> <span rt-price>3.75</span>/mo</option>
+                                                    <option value="1"><span rt-currency-symbol>$</span> <span rt-price>10.75</span>/mo</option>
+                                                </select> -->
                                                 <button type="submit" aria-label="buy package" class="primary__btn primary__bg buy__now">By
                                                     Now</button>
                                             </form>
@@ -1008,27 +1015,29 @@
         </div>
     </div>
     <!-- CTA AREA END  -->
-    
+
     <!-- FOOTER AREA -->
-        <?php include 'layout/footer/footer-one.php';?>
+    <?php include 'layout/footer/footer-one.php'; ?>
     <!-- FOOTER AREA END -->
 
     <div id="anywhere-home" class=""></div>
 
     <!-- side bar area  -->
-        <?php include 'layout/partials/sidebar.php';?>
+    <?php include 'layout/partials/sidebar.php'; ?>
     <!-- side abr area end -->
 
     <!-- THEME PRELOADER START -->
-        <?php include 'layout/partials/preloader.php';?>
+    <?php include 'layout/partials/preloader.php'; ?>
     <!-- THEME PRELOADER END -->
 
     <!-- BACK TO TOP AREA START -->
-        <?php include 'layout/partials/back-to-top.php';?>
+    <?php include 'layout/partials/back-to-top.php'; ?>
     <!-- BACK TO TOP AREA EDN -->
 
     <!-- Scripts -->
-        <?php include 'layout/partials/scripts.php';?>
+    <?php include 'layout/partials/scripts.php'; ?>
+
+
 </body>
 
 </html>

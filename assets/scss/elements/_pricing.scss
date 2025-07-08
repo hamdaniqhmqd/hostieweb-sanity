@@ -93,7 +93,7 @@
                             span.current {
                                 position: relative;
                                 top: -5px;
-                                text-transform: lowercase;
+                                text-transform: capitalize;
                             }
 
                             &::after {

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
- <!-- head area start -->
-    <?php include 'layout/partials/head.php'?>
- <!-- head area end -->
+<!-- head area start -->
+<?php include 'layout/partials/head.php' ?>
+<!-- head area end -->
+
 <body class="page-template template-pricing">
     <!-- HEADER AREA START-->
-        <?php include 'layout/header/header-one.php';?>
+    <?php include 'layout/header/header-one.php'; ?>
     <!-- HEADER AREA END -->
-    
+
     <!-- shared hosting banner -->
     <div class="rts-hosting-banner rts-hosting-banner-bg banner-default-height">
         <div class="container">
@@ -82,7 +83,7 @@
                                     <td class="process">Intel Xeon 4-Core 8-Thread</td>
                                     <td class="ram">4 GB</td>
                                     <td class="storage">1 TB HDD</td>
-                                    <td class="price">$167.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>167.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -92,7 +93,7 @@
                                     <td class="process">Intel Xeon 4-Core 8-Thread</td>
                                     <td class="ram">8 GB</td>
                                     <td class="storage">1 TB HDD</td>
-                                    <td class="price">$199.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>199.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -102,7 +103,7 @@
                                     <td class="process">Intel Xeon 4-Core 8-Thread</td>
                                     <td class="ram">16 GB</td>
                                     <td class="storage">1 TB HDD</td>
-                                    <td class="price">$299.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>299.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -112,7 +113,7 @@
                                     <td class="process">Intel Xeon 12-Core 24-Thread</td>
                                     <td class="ram">16 GB</td>
                                     <td class="storage">2 TB HDD</td>
-                                    <td class="price">$399.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>399.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -122,7 +123,7 @@
                                     <td class="process">Intel Xeon 12-Core 24-Thread</td>
                                     <td class="ram">32 GB</td>
                                     <td class="storage">2 TB HDD</td>
-                                    <td class="price">$499.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>499.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -132,7 +133,7 @@
                                     <td class="process">Intel Xeon 12-Core 24-Thread</td>
                                     <td class="ram">64 GB</td>
                                     <td class="storage">2 TB HDD</td>
-                                    <td class="price">$599.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>599.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -142,7 +143,7 @@
                                     <td class="process">Intel Xeon 12-Core 24-Thread</td>
                                     <td class="ram">16 GB</td>
                                     <td class="storage">240 GB SSD</td>
-                                    <td class="price">$299.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>299.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -152,7 +153,7 @@
                                     <td class="process">Intel Xeon 12-Core 24-Thread</td>
                                     <td class="ram">64 GB</td>
                                     <td class="storage">240 GB SSD</td>
-                                    <td class="price">$399.00/mo</td>
+                                    <td class="price"><span rt-currency-symbol>$</span><span rt-price>399.00</span>/mo</td>
                                     <td>
                                         <div class="btn__two primary__btn">sign up</div>
                                     </td>
@@ -170,7 +171,7 @@
                                     <td class="package">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> 300 Websites</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs.">
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs.">
                                                 <i class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
@@ -178,27 +179,27 @@
                                     <td class="process">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Bandwidth</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="ram">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Bandwidth</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="storage">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Bandwidth</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
@@ -213,24 +214,24 @@
                                     <td class="process">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="ram">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="storage">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
@@ -239,32 +240,32 @@
                                     <td class="package">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> 24/7/365 Support</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="process">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> 250 GB NVMe Storage</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="ram">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> 250 GB NVMe Storage</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="storage">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> 250 GB NVMe Storage</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
@@ -273,32 +274,32 @@
                                     <td class="package">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="process">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="ram">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
                                     <td class="storage">
                                         <span class="content">
                                             <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                                class="fa-light fa-circle-question"></i>
+                                            <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                    class="fa-light fa-circle-question"></i>
                                             </span>
                                         </span>
                                     </td>
@@ -415,7 +416,7 @@
                                 <td class="package">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> 300 Websites</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs.">
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs.">
                                             <i class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
@@ -423,27 +424,27 @@
                                 <td class="process">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Bandwidth</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                        title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                        class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                            title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="ram">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Bandwidth</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                        title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                        class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                            title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="storage">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Bandwidth</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                        title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                        class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                            title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
@@ -458,24 +459,24 @@
                                 <td class="process">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="ram">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="storage">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
@@ -484,32 +485,32 @@
                                 <td class="package">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> 24/7/365 Support</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="process">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> 250 GB NVMe Storage</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="ram">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> 250 GB NVMe Storage</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="storage">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> 250 GB NVMe Storage</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
@@ -518,32 +519,32 @@
                                 <td class="package">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="process">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="ram">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
                                 <td class="storage">
                                     <span class="content">
                                         <span class="text"><i class="fa-regular fa-check"></i> Unlimited Free SSL</span>
-                                    <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
-                                            class="fa-light fa-circle-question"></i>
+                                        <span class="tolltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unlock superior online experiences with our Unlimited Free SSL solutions, ensuring reliability, speed, and seamless functionality for your website needs."><i
+                                                class="fa-light fa-circle-question"></i>
                                         </span>
                                     </span>
                                 </td>
@@ -660,24 +661,25 @@
     <!-- HOSTIE CTA END -->
 
     <!-- FOOTER AREA START-->
-        <?php include 'layout/footer/footer-two.php';?>
+    <?php include 'layout/footer/footer-two.php'; ?>
     <!-- FOOTER AREA END -->
 
     <div id="anywhere-home" class=""></div>
 
     <!-- Sidebar area start -->
-        <?php include 'layout/partials/sidebar.php';?>
+    <?php include 'layout/partials/sidebar.php'; ?>
     <!-- Sidebar area end -->
 
     <!-- THEME PRELOADER START -->
-        <?php include 'layout/partials/preloader.php';?>
+    <?php include 'layout/partials/preloader.php'; ?>
     <!-- THEME PRELOADER END -->
 
     <!-- BACK TO TOP AREA START -->
-        <?php include 'layout/partials/back-to-top.php';?>
+    <?php include 'layout/partials/back-to-top.php'; ?>
     <!-- BACK TO TOP AREA EDN -->
 
     <!-- Scripts -->
-        <?php include 'layout/partials/scripts.php';?>
+    <?php include 'layout/partials/scripts.php'; ?>
 </body>
+
 </html>

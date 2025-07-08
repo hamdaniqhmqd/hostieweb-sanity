@@ -8,7 +8,7 @@
                         <a href="mailto:info@hostie.com"><img src="assets/images/icon/email.svg" alt="" class="icon">contact@hostie.com</a>
                     </div>
                     <div class="rts-ht__promo">
-                        <p><img class="icon" src="assets/images/icon/tag--group.svg" alt=""> Hosting Flash Sale: Starting at <strong>$2.59/mo</strong> for a limited time</p>
+                        <p><img class="icon" src="assets/images/icon/tag--group.svg" alt=""> Hosting Flash Sale: Starting at <strong><span rt-currency-symbol>$</span> <span rt-price>2.59</span>/mo</strong> for a limited time</p>
                     </div>
                     <div class="rts-ht__links">
                         <div class="live-chat-has-dropdown">
@@ -544,6 +544,17 @@
                 </nav>
                 <!-- FOR HEADER RIGHT -->
                 <div class="rts-header__right">
+                    <div class="easy-currency-switcher switcher-list-content">
+                        <form action="#" id="easy_currency_switcher_form" class="easy_currency_switcher_form">
+                            <button type="button" class="easy-currency-switcher-toggle">
+                                <span class="currency-code">usd</span>
+                                <span class="dropdown-icon"></span>
+                            </button>
+                            <ul class="easy-currency-switcher-select list has-flag">
+                            </ul>
+                        </form>
+                    </div>
+
                     <a href="https://hostie-whmcs.themewant.com/" class="login__btn" target="_blank">Client Area</a>
                     <button id="menu-btn" aria-label="Menu" class="mobile__active menu-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
                 </div>
