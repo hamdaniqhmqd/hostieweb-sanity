@@ -22071,7 +22071,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 .rts-plan__table table thead .package__item__info .nice-select.price__select span.current {
   position: relative;
   top: -5px;
-  text-transform: lowercase;
+  /* text-transform: capitalize; */
 }
 
 .rts-plan__table table thead .package__item__info .nice-select.price__select::after {
