@@ -529,7 +529,7 @@
     }
 }
 
-.dropdown-icon {
+.dropdown-icon-currency {
     width: 0;
     height: 0;
     border-left: 5px solid transparent;
@@ -566,12 +566,87 @@
     transition: background-color 0.2s;
 }
 
-.easy-currency-switcher-select li:hov0er {
+.easy-currency-switcher-select li:hover {
     background-color: #f5f5f5;
 }
 
 /* Show dropdown when active */
 .easy-currency-switcher.switcher-list-content.active .easy-currency-switcher-select {
+    display: block;
+}
+
+// language switcher style
+.easy-language-switcher.switcher-list-content {
+    position: relative;
+    width: auto;
+    /* adjust width as needed */
+}
+
+.easy_language_switcher_form {
+    position: relative;
+}
+
+.easy-language-switcher-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 14px 20px;
+    background: transparent;
+    border: 1px solid var(--color-white);
+    border-radius: 25px;
+    cursor: pointer;
+    color: var(--color-white);
+    text-transform: uppercase;
+
+    @include mq($xs) {
+        padding: 10px 20px;
+    }
+}
+
+.dropdown-icon-language {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    margin-left: 8px;
+}
+
+.easy-language-switcher-select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.easy-language-switcher-select.option-language {
+    margin: 0;
+}
+
+.easy-language-switcher-select .option-language {
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333333;
+    transition: background-color 0.2s;
+}
+
+.easy-language-switcher-select .option-language:hover {
+    background-color: #f5f5f5;
+}
+
+/* Show dropdown when active */
+.easy-language-switcher.switcher-list-content.active .easy-language-switcher-select {
     display: block;
 }
 

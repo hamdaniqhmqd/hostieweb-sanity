@@ -1,0 +1,5 @@
+{
+    "baseLanguage": "en",
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "id"]
+}

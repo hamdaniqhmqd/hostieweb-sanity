@@ -548,9 +548,20 @@
                         <form action="#" id="easy_currency_switcher_form" class="easy_currency_switcher_form">
                             <button type="button" class="easy-currency-switcher-toggle">
                                 <span class="currency-code">usd</span>
-                                <span class="dropdown-icon"></span>
+                                <span class="dropdown-icon-currency"></span>
                             </button>
                             <ul class="easy-currency-switcher-select list has-flag">
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="easy-language-switcher switcher-list-content">
+                        <form action="#" id="easy_language_switcher_form" class="easy_language_switcher_form">
+                            <button type="button" class="easy-language-switcher-toggle">
+                                <span class="language-code">en</span>
+                                <span class="dropdown-icon-language"></span>
+                            </button>
+                            <ul class="easy-language-switcher-select list has-flag">
+                                <!-- Opsi bahasa akan di-render otomatis oleh JS -->
                             </ul>
                         </form>
                     </div>

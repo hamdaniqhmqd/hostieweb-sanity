@@ -34,6 +34,7 @@ let rtCurrencyConverter = {
     getCurrencyConfig: async function () {
         try {
             const response = await fetch('assets/js/currency/configue.json');
+            // console.log('Currency config loaded:', response.json());
             return await response.json();
         } catch (error) {
             console.error('Error loading currency config:', error);
@@ -121,6 +122,7 @@ let rtCurrencyConverter = {
     loadCurrencyConfig: async function () {
         try {
             const config = await this.getCurrencyConfig();
+            console.log('Currency config:', config);
 
             const selectEl = document.querySelector('.easy-currency-switcher-select');
             if (!selectEl || !config.supportedCurrencies) return;
@@ -128,7 +130,7 @@ let rtCurrencyConverter = {
             config.supportedCurrencies.forEach(code => {
                 const li = document.createElement('li');
                 li.setAttribute('data-value', code.toLowerCase());
-                li.className = 'option';
+                li.className = 'option-currency';
                 li.textContent = code.toUpperCase();
                 selectEl.appendChild(li);
             });

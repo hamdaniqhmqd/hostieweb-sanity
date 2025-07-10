@@ -1,7 +1,7 @@
 {   
     "baseCurrency" : "usd",
     "defaultCurrency" : "usd",
-    "supportedCurrencies": ["usd", "eur", "jpy", "cny", "idr"],
+    "supportedCurrencies": ["usd", "idr"],
     "currencyThousandSeparator": ".",
     "currencyDecimalSeparator": ""
 }
