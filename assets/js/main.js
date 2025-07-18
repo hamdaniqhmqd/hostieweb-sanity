@@ -527,88 +527,88 @@
   }
 
   // currency converter
-  $(document).ready(async function () {
-    async function getUserPreferredCurrency() {
-      return localStorage.getItem('updateUserPreferedCurrency') || 'usd';
-    }
+  // $(document).ready(async function () {
+  //   async function getUserPreferredCurrency() {
+  //     return localStorage.getItem('updateUserPreferedCurrency') || 'usd';
+  //   }
 
-    async function getCurrencySymbol(currencyCode) {
-      try {
-        const response = await fetch('assets/js/currency/currencies.json');
-        const data = await response.json();
-        const currency = data.find(item => item.cc === currencyCode);
-        return currency ? currency.symbol : '$';
-      } catch (error) {
-        return '$';
-      }
-    }
+  //   async function getCurrencySymbol(currencyCode) {
+  //     try {
+  //       const response = await fetch('assets/js/currency/currencies.json');
+  //       const data = await response.json();
+  //       const currency = data.find(item => item.cc === currencyCode);
+  //       return currency ? currency.symbol : '$';
+  //     } catch (error) {
+  //       return '$';
+  //     }
+  //   }
 
-    async function convertCurrency(fromCurrency, toCurrency, value) {
-      try {
-        const response = await fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${fromCurrency}.json`);
-        const data = await response.json();
-        return (data[fromCurrency][toCurrency] * parseFloat(value)).toFixed(2);
-      } catch (error) {
-        return value;
-      }
-    }
+  //   async function convertCurrency(fromCurrency, toCurrency, value) {
+  //     try {
+  //       const response = await fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${fromCurrency}.json`);
+  //       const data = await response.json();
+  //       return (data[fromCurrency][toCurrency] * parseFloat(value)).toFixed(2);
+  //     } catch (error) {
+  //       return value;
+  //     }
+  //   }
 
-    async function updatePrices() {
-      const userCurrency = await getUserPreferredCurrency();
-      const currencySymbol = await getCurrencySymbol(userCurrency.toUpperCase());
+  //   async function updatePrices() {
+  //     const userCurrency = await getUserPreferredCurrency();
+  //     const currencySymbol = await getCurrencySymbol(userCurrency.toUpperCase());
 
-      const pricingPlans = [
-        { planName: "Basic", prices: ["5.99", "12.99"], planId: "basic" },
-        { planName: "Deluxe", prices: ["9.99", "19.99"], planId: "deluxe" },
-        { planName: "Ultra", prices: ["15.99", "25.99"], planId: "ultra" },
-      ];
+  //     const pricingPlans = [
+  //       { planName: "Basic", prices: ["5.99", "12.99"], planId: "basic" },
+  //       { planName: "Deluxe", prices: ["9.99", "19.99"], planId: "deluxe" },
+  //       { planName: "Ultra", prices: ["15.99", "25.99"], planId: "ultra" },
+  //     ];
 
-      // Loop through each plan
-      for (let plan of pricingPlans) {
-        const select = $("#" + plan.planId); // Select the dropdown by plan ID
-        select.empty(); // Clear the existing options
+  //     // Loop through each plan
+  //     for (let plan of pricingPlans) {
+  //       const select = $("#" + plan.planId); // Select the dropdown by plan ID
+  //       select.empty(); // Clear the existing options
 
-        // Loop through each price for the current plan
-        for (let price of plan.prices) {
-          const convertedPrice = await convertCurrency('usd', userCurrency, price);
-          const optionText = `${currencySymbol}${convertedPrice}/mo`;
-          const option = $("<option></option>")
-            .val(convertedPrice)
-            .text(optionText);
-          select.append(option); // Append the option to the corresponding dropdown
-        }
-      }
-    }
+  //       // Loop through each price for the current plan
+  //       for (let price of plan.prices) {
+  //         const convertedPrice = await convertCurrency('usd', userCurrency, price);
+  //         const optionText = `${currencySymbol}${convertedPrice}/mo`;
+  //         const option = $("<option></option>")
+  //           .val(convertedPrice)
+  //           .text(optionText);
+  //         select.append(option); // Append the option to the corresponding dropdown
+  //       }
+  //     }
+  //   }
 
-    $(document).on("change", ".easy-currency-switcher-select .option", async function () {
-      const selectedCurrency = $(this).attr("data-value");
-      localStorage.setItem('updateUserPreferedCurrency', selectedCurrency);
-      await updatePrices();
-    });
+  //   $(document).on("change", ".easy-currency-switcher-select .option", async function () {
+  //     const selectedCurrency = $(this).attr("data-value");
+  //     localStorage.setItem('updateUserPreferedCurrency', selectedCurrency);
+  //     await updatePrices();
+  //   });
 
-    await updatePrices();
-    // pricing dropdown
-    // Toggle the dropdown when the button is clicked
-    $('.easy-currency-switcher-toggle').on('click', function () {
-      $(this).parent().parent().toggleClass('active');
-    });
+  //   await updatePrices();
+  //   // pricing dropdown
+  //   // Toggle the dropdown when the button is clicked
+  //   $('.easy-currency-switcher-toggle').on('click', function () {
+  //     $(this).parent().parent().toggleClass('active');
+  //   });
 
-    // Close the dropdown when clicking outside
-    $(document).on('click', function (e) {
-      if (!$(e.target).closest('.easy-currency-switcher.switcher-list-content').length) {
-        $('.easy-currency-switcher.switcher-list-content').removeClass('active');
-      }
-    });
+  //   // Close the dropdown when clicking outside
+  //   $(document).on('click', function (e) {
+  //     if (!$(e.target).closest('.easy-currency-switcher.switcher-list-content').length) {
+  //       $('.easy-currency-switcher.switcher-list-content').removeClass('active');
+  //     }
+  //   });
 
-    // Handle currency selection
-    $('.easy-currency-switcher-select li').on('click', function () {
-      const currencyCode = $(this).text().toLowerCase();
-      $('.currency-code').text(currencyCode);
-      $('.easy-currency-switcher.switcher-list-content').removeClass('active');
-      // Add your currency switching logic here
-    });
+  //   // Handle currency selection
+  //   $('.easy-currency-switcher-select li').on('click', function () {
+  //     const currencyCode = $(this).text().toLowerCase();
+  //     $('.currency-code').text(currencyCode);
+  //     $('.easy-currency-switcher.switcher-list-content').removeClass('active');
+  //     // Add your currency switching logic here
+  //   });
 
-  });
+  // });
 
   // Language switcher
   $(document).ready(async function () {
