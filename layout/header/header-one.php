@@ -69,7 +69,6 @@ $currentLang = getCurrentLanguage();
     });
 </script>
 
-
 <header class="rts-header style-one header__default">
     <!-- HEADER TOP AREA -->
     <div class="rts-ht rts-ht__bg">
@@ -317,8 +316,15 @@ $currentLang = getCurrentLanguage();
                             </ul>
                         </form>
                     </div>
-
-                    <a href="https://hostie-whmcs.themewant.com/" class="login__btn" target="_blank">Client Area</a>
+                    <a href="<?php echo htmlspecialchars($data['result']['header']['client_area']['path_client_area']); ?>" class="login__btn" target="_blank">
+                        <?php
+                        if ($currentLang === 'id') {
+                            echo htmlspecialchars($data['result']['header']['client_area']['client_area_in']);
+                        } else {
+                            echo htmlspecialchars($data['result']['header']['client_area']['client_area_en']);
+                        }
+                        ?>
+                    </a>
                     <button id="menu-btn" aria-label="Menu" class="mobile__active menu-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
                 </div>
             </div>

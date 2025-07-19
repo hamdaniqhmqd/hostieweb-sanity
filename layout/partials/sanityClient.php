@@ -30,26 +30,13 @@ function fetchFromSanity($query)
 
     $response = curl_exec($ch);
 
-    // Log ke file
-    $logFile = __DIR__ . '/sanity_log.txt';
-    $logData = "=== SANITY API REQUEST ===\n";
-    $logData .= "URL: $url\n";
-    $logData .= "Headers: " . print_r($headers, true) . "\n";
-
     if (curl_errno($ch)) {
         $error = curl_error($ch);
-        $logData .= "cURL ERROR: $error\n";
-        file_put_contents($logFile, $logData, FILE_APPEND);
         curl_close($ch);
         return ['error' => $error];
     }
 
-    $logData .= "Raw Response:\n$response\n";
-
     $decoded = json_decode($response, true);
-    $logData .= "Decoded Response:\n" . print_r($decoded, true) . "\n\n";
-
-    file_put_contents($logFile, $logData, FILE_APPEND);
 
     curl_close($ch);
 
